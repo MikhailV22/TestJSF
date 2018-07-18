@@ -13,6 +13,10 @@ import Entity.Car;
 @SessionScoped
 
 public class CarController implements Serializable{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private ArrayList<Car> cars = new ArrayList<>();
 	
 	public void generateCars() {
